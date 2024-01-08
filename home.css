@@ -1,0 +1,36 @@
+	#div2 {
+		max-width: 100%;
+		background-color: #ff7a2c;
+		border-color: black;
+	}	
+
+	#table1 {
+		table-layout: fixed;
+	}
+
+	#div3 {
+		padding-top: 50px;
+		padding-left: 50px;
+		float: left;
+	}
+
+	#div4 {
+		padding-top: 50px;
+		padding-left: 700px;
+		padding-right: 50px;
+	}
+	
+	#div5{
+		width: 1000px;
+		margin: 0 auto;
+
+	}
+	#div5a {
+		width: 500px;
+		float:left;
+	}
+	#div5b {
+		width: 400px;
+		padding-left: 100px;
+		float:left;
+	}

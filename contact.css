@@ -1,0 +1,16 @@
+#div2 {
+    max-width: 100%;
+    background-color: #ff7a2c;
+    border-color: black;
+}	
+
+#table1 {
+    table-layout: fixed;
+}
+
+#div4 {
+    max-width:33.33%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}

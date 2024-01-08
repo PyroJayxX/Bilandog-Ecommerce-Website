@@ -1,0 +1,35 @@
+#div2 {
+    max-width: 100%;
+    background-color: #ff7a2c;
+    border-color: black;
+}	
+#table1 {
+    table-layout: fixed;
+}
+#menu {
+    margin: auto;
+    color: #fef2e2;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 10em;
+}
+#div3 {
+    padding-top: 5px;
+    padding-bottom:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#table2 {
+    max-width: 100%;
+}
+
+#div4 {
+    display: flex;
+    background-color: maroon;
+    justify-content: center;
+    width: 20rem;
+    margin: auto;
+    border-radius: 3rem;    
+    height: 5rem;
+    flex-wrap: wrap;
+    align-content: center;
+}

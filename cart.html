@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<title> Bilandog Corp </title>
+	<link rel="stylesheet" href="cart.css"/>
+	<style>	</style>
+	</head>
+	<script defer src="cart.js"></script>
+	<body bgcolor="black">
+		<div id="div1">
+		<img src="Banner.png" width="100%">
+		</div>
+
+		<div id="div2">
+		<font size="7" face="Arial" style="color: #fef2e2;">
+			<table id="table1" border="0px" bordercolor="white" align="center" height="23px" width="65%" cellpadding="15px">
+				<tr align="center">
+				<td> <a href="home.html" style="text-decoration-line:none;color:#fef2e2"><b>HOME</b></a>
+				<td> <a href="contact.html" style="text-decoration-line:none;color:#fef2e2"><b>CONTACT US</b></a>
+                <td> <a href="product.html" style="text-decoration-line:none;color:#fef2e2"><b>PRODUCT</b></a>
+				</tr>
+			</table>
+		</font>
+		</div>
+
+		<div id="menu">
+			<center>Order</center>
+
+		</div>
+		<div id="container">
+			<div id="div4" class="button">
+				<button type="button" class="quantity-btn" id="classic-btn" onClick="incrementItem(1, 60)">+</button>
+				<button type="button" class="quantity-btn" id="classic-btn" onClick="decrementItem(1, 60)">-</button>
+				<button type="button" class="quantity-btn" id="cheesy-btn" onClick="incrementItem(2, 65)">+</button>
+				<button type="button" class="quantity-btn" id="cheesy-btn" onClick="decrementItem(2, 65)">-</button>
+				<button type="button" class="quantity-btn" id="chili-btn" onClick="incrementItem(3, 65)">+</button>
+				<button type="button" class="quantity-btn" id="chili-btn" onClick="decrementItem(3, 65)">-</button>
+				<button type="button" class="quantity-btn" id="jumbo-btn" onClick="incrementItem(4, 70)">+</button>
+				<button type="button" class="quantity-btn" id="jumbo-btn" onClick="decrementItem(4, 70)">-</button>
+				<button type="button" class="quantity-btn" id="hawaiian-btn" onClick="incrementItem(5, 75)">+</button>
+				<button type="button" class="quantity-btn" id="hawaiian-btn" onClick="decrementItem(5, 75)">-</button>
+				<button type="button" class="quantity-btn" id="truffle-btn" onClick="incrementItem(6, 75)">+</button>
+				<button type="button" class="quantity-btn" id="truffle-btn" onClick="decrementItem(6, 75)">-</button>
+			</div>
+			<div id="div3">
+				<table id="table2" border="1px" bordercolor="#fef2e2" cellpadding="5px">
+					<tr align="center">
+						<td width="100"> <h1 id="classic-qty">0</h1>
+						<td width="400"> <img src="./ProductPics/HDClassic.png""/>
+						<td> <h1>Hotdog Classic</h1>
+					</tr>
+					<tr align="center">
+						<td> <h1 id="cheesy-qty">0</h1>
+						<td> <img src="./ProductPics/HDCheesy.png"/>
+						<td> <h1>Cheesedog</h1>
+					</tr>
+					<tr align="center">
+						<td> <h1 id="chili-qty">0</h1>
+						<td> <img src="./ProductPics/HDChili.png"/>
+						<td> <h1>Chilidog</h1>
+					</tr>
+					<tr align="center">
+						<td> <h1 id="jumbo-qty">0</h1>
+						<td> <img src="./ProductPics/HDJumbo.png"/>
+						<td width="450"> <h1>Hotdog Jumbo</h1>
+					</tr>
+					<tr align="center">	
+						<td> <h1 id="hawaiian-qty">0</h1>
+						<td> <img src="./ProductPics/HDHawaiian.png"/>
+						<td> <h1>Hawaiian Hotdog</h1>
+					</tr>
+					<tr align="center">
+						<td> <h1 id="truffle-qty">0</h1></td>
+						<td> <img src="./ProductPics/HDTruffle.png"/>
+						<td> <h1>Truffle</h1>
+					</tr>
+				</table>
+			</div>
+			<div class="forms">
+				<h1 style="font-size:45px;color:#fef2e2;">CONTACT INFORMATION</h1>
+				<p style="color:#fef2e2;"> Please fill out this form with the required information	</p>
+				<form>
+					<fieldset>
+						<h1 style="font-size:25px;text-align:left;">Personal Information</h1>
+						<label for="full-name">Full Name: <input id="full-name" type="text" required/> </label>
+						<label for="address">Address: <input id="address" type="text" required/></label>
+						<label for="mobile-number">Mobile Number: <input id="mobile-number" type="number" required/></label>
+						<label for="telephone-number">Telephone Number: <input id="telephone-number" type="number" required/></label>
+					</fieldset>
+					<fieldset>
+						<h1 style="font-size:25px;text-align:left;">Payment Method</h1>
+						<label><input class="inline" type="radio" name="payment-method" required/> Card</label>
+						<label><input class="inline" type="radio" name="payment-method" required/> Digital Wallet</label>
+						<label><input class="inline" 	type="radio" name="payment-method" required/> Cash on Delivery</label>
+					</fieldset>
+					<fieldset>
+						<input type="submit" onclick="submitBtn()" id="submit">
+					</fieldset>	
+					</form>
+			</div>
+		</div>
+
+	</body>
+
+</html>

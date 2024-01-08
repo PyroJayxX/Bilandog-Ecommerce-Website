@@ -1,0 +1,116 @@
+#div2 {
+    max-width: 100%;
+    background-color: #ff7a2c;
+    border-color: black;
+}	
+#table1 {
+    table-layout: fixed;
+}
+#menu {
+    margin: auto;
+    color: #fef2e2;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 10em;
+}
+
+#table2 {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#container {
+    display: flex;
+}
+
+#div3 {
+    padding-top: 5px;
+    padding-bottom:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: right;
+}
+
+#div4 {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+  
+
+.quantity-btn{
+    display: flex;
+    gap:0;
+    flex-wrap: wrap;
+    margin-top: 0.2rem;
+    padding: 0.530em;
+    font-size: 1.4rem;
+    color:☐#444;
+    border:.1rem solid #444;
+ }
+ .container{
+    display: flex;
+    flex-direction: column;
+ }
+ .forms{    
+    padding: 0% 5% 1% 5%;
+    color: white;
+    width: 65%;
+    margin: 0 100 0 50px;
+    font-family: sans-serif;
+ }
+
+ label {
+    font-size: 20px;
+    display: block;
+    margin: 0.5rem 0;
+ }
+ p{
+    margin: 0 auto;
+    text-align: center;
+  }
+ h1 {
+    margin: 0.5em auto;
+    text-align: center;
+  }
+ form {
+    width: 60vw;
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0 auto;
+  }
+ fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid grey;
+  }
+ fieldset:last-of-type{
+    border-bottom: none;
+  }
+ input{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #370A0A;
+    border: 1px solid #1D0B0B;
+    color: #fff;
+    min-height: 1.9em;
+  }
+ .inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+  #submit {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: 2em;
+    font-size: 1.1rem;
+  }
+
+  
+
+
+ 
